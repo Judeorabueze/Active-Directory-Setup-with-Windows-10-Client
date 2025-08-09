@@ -46,11 +46,14 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 
 ![Windows server vm](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Virtual%20Machine%20name.png)
 
-- In the Name and Operating System section, entered a descriptive name and selected the appropriate OS type and version.
+- In the Name and Operating System section, entered Domain Controller DC and selected the appropriate OS type and version.
 - Under ISO Image, uploaded the downloaded ISO file.
 - Skipped the Unattended Installation option.
 - Allocated hardware resources (CPU, RAM, storage) based on host system capacity and available space.
 - Clicked Finish to create the virtual machine.
+
+![Domain Controller](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Domain%20controller.png)
+
 - Right-clicked the newly created Domain Controller VM, went to Settings → System, and unchecked Floppy from the boot order to ensure the VM booted from the ISO.
 - Under Network, changed the adapter type from NAT to Bridged Adapter to allow the VM to obtain network access from the host system.
 - Clicked OK and started the Domain Controller VM.
