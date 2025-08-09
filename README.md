@@ -59,9 +59,18 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 ![boot](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/System%20boot.png)
 
 - Under Network, changed the adapter type from NAT to Bridged Adapter to allow the VM to obtain network access from the host system.
+
+![bridge adapter](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Bridge%20adapter.png)
+
 - Clicked OK and started the Domain Controller VM.
 - Selected the preferred language and clicked Install Now.
+
+![install now](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/install%20now.png)
+
 - Chose Windows Server Datacenter Evaluation (Desktop Experience) as the edition.
+
+![Windoes server edition](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/server%20operating%20system.png)
+
 - Accepted the license terms.
 - Selected Custom: Install Windows Only for a fresh installation.
 - Chose the installation disk and clicked Next to begin installation.
