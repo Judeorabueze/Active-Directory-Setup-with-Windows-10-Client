@@ -73,7 +73,17 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 
 - Accepted the license terms.
 - Selected Custom: Install Windows Only for a fresh installation.
-- Chose the installation disk and clicked Next to begin installation.
+- Chose the installation disk and clicked Next to begin installation
+
+![unattended installation](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/unallocated%20space.png)
+
 - After installation, set a secure Administrator password.
+
+![password](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/set%20password.png)
+
+- Hit Enter and the installation was completed.
+
+![Finish](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/finish.png)
+Successful installation of Windows server 2019 
 
 Enabled Shared Clipboard and Drag and Drop to Bidirectional in VirtualBox for easier file and text transfer between host and VM.
