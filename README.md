@@ -38,6 +38,9 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 - Navigated to the Windows Server 2019 Evaluation Center via Google search or directly at https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019.
 - Completed the Register for Free Trial form.
 - Selected Windows Server 2019 (English ISO 64-bit edition).
+
+![Windows Server](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Windows%20server.png)
+
 - Downloaded the ISO file and waited for completion.
 - Opened Oracle VirtualBox and created a new virtual machine by clicking Tools → New.
 - In the Name and Operating System section, entered a descriptive name and selected the appropriate OS type and version.
