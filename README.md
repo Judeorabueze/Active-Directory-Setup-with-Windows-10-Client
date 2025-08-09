@@ -43,6 +43,9 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 
 - Downloaded the ISO file and waited for completion.
 - Opened Oracle VirtualBox and created a new virtual machine by clicking Tools → New.
+
+![Windows server vm](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Virtual%20Machine%20name.png)
+
 - In the Name and Operating System section, entered a descriptive name and selected the appropriate OS type and version.
 - Under ISO Image, uploaded the downloaded ISO file.
 - Skipped the Unattended Installation option.
