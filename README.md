@@ -55,6 +55,9 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 ![Domain Controller](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Domain%20controller.png)
 
 - Right-clicked the newly created Domain Controller VM, went to Settings → System, and unchecked Floppy from the boot order to ensure the VM booted from the ISO.
+
+![boot](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/System%20boot.png)
+
 - Under Network, changed the adapter type from NAT to Bridged Adapter to allow the VM to obtain network access from the host system.
 - Clicked OK and started the Domain Controller VM.
 - Selected the preferred language and clicked Install Now.
