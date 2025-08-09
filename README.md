@@ -4,6 +4,7 @@
 
 This project demonstrates the installation and configuration of a Windows Server 2019 Domain Controller and the integration of a Windows 10 client into an Active Directory environment.
 The setup was carried out in a virtualized lab using Oracle VirtualBox, simulating a real-world enterprise network.
+
 Key tasks included deploying Active Directory Domain Services (AD DS), configuring DNS, creating domain users, and joining a client machine to the domain for centralized authentication and management.
 
 ## Objectives
