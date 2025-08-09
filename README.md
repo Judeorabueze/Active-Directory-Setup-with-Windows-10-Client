@@ -84,6 +84,12 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 - Hit Enter and the installation was completed.
 
 ![Finish](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/finish.png)
-Successful installation of Windows server 2019 
 
-Enabled Shared Clipboard and Drag and Drop to Bidirectional in VirtualBox for easier file and text transfer between host and VM.
+*Windows server 2019* 
+
+- Enabled Shared Clipboard and Drag and Drop to Bidirectional in VirtualBox for easier file and text transfer between host and VM.
+- Renamed the server name using the <b>Rename this pc</b> in the systems <b>Device specifications</b>. 
+
+### 3. Configuring the Domain Controller
+
+
