@@ -143,5 +143,17 @@ To enable centralized management of the Windows 10 client, I installed and confi
 
 At this stage, the server was successfully configured as a Domain Controller with Active Directory services ready to manage network clients.
 
+### 4. Creating a Domain User Account
 
+After configuring the Domain Controller, I created a new user account within Active Directory for demonstration and testing purposes.
 
+- Logged into the Domain Controller and opened Server Manager.
+- Clicked on Tools and selected Active Directory Users and Computers (ADUC).
+- Expanded the root domain (in this lab: judeorabueze.com) and selected the Users container.
+- Right-clicked within the Users container, selected New → User.
+- Entered the required details in the New Object – User window.
+- Clicked Next and created a secure password for the account.
+- Confirmed the password settings and clicked Next again.
+- Reviewed the details and clicked Finish to create the account.
+
+The new user account, Helpdesk Demo, was successfully created and added to the domain.
