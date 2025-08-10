@@ -129,6 +129,9 @@ To enable centralized management of the Windows 10 client, I installed and confi
 ![password](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Password.png)
 
 - Accepted the automatically generated NetBIOS domain name (or shortened it if desired), then clicked Next.
+
+![netbios](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Netbios.png)
+
 - Reviewed configuration selections and clicked Next.
 - After prerequisite checks passed, clicked Install.
 - Allowed the system to complete the configuration and automatically restart, finalizing the promotion to Domain Controller.
