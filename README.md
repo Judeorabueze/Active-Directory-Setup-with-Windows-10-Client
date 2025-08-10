@@ -134,7 +134,12 @@ To enable centralized management of the Windows 10 client, I installed and confi
 
 - Reviewed configuration selections and clicked Next.
 - After prerequisite checks passed, clicked Install.
+
+![install](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Install.png)
+
 - Allowed the system to complete the configuration and automatically restart, finalizing the promotion to Domain Controller.
+
+![DC](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/DC.png)
 
 At this stage, the server was successfully configured as a Domain Controller with Active Directory services ready to manage network clients.
 
