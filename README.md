@@ -177,3 +177,9 @@ After configuring the Domain Controller, I created a new user account within Act
 
 ### 5. Joining the Windows Client to the Domain
 
+##### On the Domain Controller machine
+- Opened the system command prompt (CMD)
+- Entered the command `ipconfig`
+- Took note of the IP address and network details of the Domain Controller.
+
+#### On the Windows Client
