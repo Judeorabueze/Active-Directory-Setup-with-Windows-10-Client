@@ -155,7 +155,7 @@ After configuring the Domain Controller, I created a new user account within Act
 - Expanded the root domain (in this lab: judeorabueze.com) and selected the <b>Users</b> container.
 - Right-clicked within the <b>Users</b> container, selected <b>New → User</b>.
 
-![Users Container](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Domain%20dropdpwn.png)
+![Users Container](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/domain%20user.png)
 
 - Entered the required details in the <b>New Object</b> – User window.
 
