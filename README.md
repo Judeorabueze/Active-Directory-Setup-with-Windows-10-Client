@@ -206,9 +206,8 @@ After configuring the Domain Controller, I created a new user account within Act
 - Entered the IP address, subnet mask, and default gateway to match the Domain Controller’s network configuration. This ensured the client was correctly pointed to the Domain Controller.
 - Clicked OK to save changes.
 
-
-
-- With the network configured, I proceeded to join the client to the domain:
+  *With the network configured, I proceeded to join the client to the domain:*
+  
 - On the Windows 10 client, right-clicked the Start button and selected System.
 - In the About window, clicked Advanced System Settings.
 - In System Properties, navigated to the Computer Name tab and clicked Change.
