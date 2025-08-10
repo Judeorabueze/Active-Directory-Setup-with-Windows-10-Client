@@ -183,3 +183,21 @@ After configuring the Domain Controller, I created a new user account within Act
 - Took note of the IP address and network details of the Domain Controller.
 
 #### On the Windows Client
+
+- Renamed the Windows 10 client to a descriptive name for easier identification within the domain.
+- On the Windows 10 (HelpDesk) client, right-clicked the network adapter icon and selected Open Network & Internet Settings.
+- Clicked Change adapter options, then right-clicked Ethernet and selected Properties.
+- Highlighted Internet Protocol Version 4 (TCP/IPv4) and clicked Properties.
+- Selected Use the following DNS server addresses and entered the Domain Controller’s IP address as the Preferred DNS server.
+- Entered the IP address, subnet mask, and default gateway to match the Domain Controller’s network configuration. This ensured the client was correctly pointed to the Domain Controller.
+- Clicked OK to save changes.
+- With the network configured, I proceeded to join the client to the domain:
+- On the Windows 10 client, right-clicked the Start button and selected System.
+- In the About window, clicked Advanced System Settings.
+- In System Properties, navigated to the Computer Name tab and clicked Change.
+- Selected Domain and entered the configured domain name (e.g., mylab.local).
+- When prompted, entered the domain administrator’s username and password.
+- Received confirmation that the computer was successfully added to the domain.
+- Restarted the client to apply the changes.
+
+The Windows 10 client was now successfully joined to the Active Directory domain and ready for domain-based management.
