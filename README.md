@@ -73,7 +73,7 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 
 - Accepted the license terms.
 - Selected Custom: Install Windows Only for a fresh installation.
-- Chose the installation disk and clicked Next to begin installation
+- Chose the installation disk and clicked <b>Next</b> to begin installation
 
 ![unattended installation](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/unallocated%20space.png)
 
@@ -96,10 +96,19 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 To enable centralized management of the Windows 10 client, I installed and configured Active Directory Domain Services (AD DS) on the Windows Server 2019 virtual machine, promoting it to a Domain Controller.
 
 - Logged into the Windows Server 2019 VM.
-- Opened Server Manager, clicked Manage, and selected Add Roles and Features.
-- Chose Role-based or feature-based installation and clicked Next.
+- On the <b>Server Manager Dashboard</b>, clicked <b>Manage</b>, and selected <b>Add Roles and Features</b>.
+
+![Server manager](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Server%20manager%20dashboard.png)
+  
+- On the <b> Add Roles and Features Wizard</b> box, chose <b>Role-based or feature-based installation</b> and clicked Next.
+
+![Installation type](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/installation%20type.png)
+
 - Selected the target server from the server pool and clicked Next.
-- From the list of roles, selected Active Directory Domain Services (AD DS).
+- From the list of roles, selected <b>Active Directory Domain Services (AD DS)</b>.
+
+![Active Directory](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Active%20directory%20domain%20services.png)
+
 - Clicked Add Features when prompted to include required components, then clicked Next.
 - Accepted the default features (including .NET Framework 3.5) and proceeded by clicking Next twice.
 - Clicked Install and allowed the installation to complete.
