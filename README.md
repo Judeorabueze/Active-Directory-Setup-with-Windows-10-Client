@@ -208,12 +208,47 @@ After configuring the Domain Controller, I created a new user account within Act
 
   *With the network configured, I proceeded to join the client to the domain:*
   
-- On the Windows 10 client, right-clicked the Start button and selected System.
-- In the About window, clicked Advanced System Settings.
-- In System Properties, navigated to the Computer Name tab and clicked Change.
-- Selected Domain and entered the configured domain name (e.g., mylab.local).
+- On the Windows 10 client, right-clicked the <b>Start</b> button and selected <b>System</b>.
+- In the <b>About window</b>, clicked <b>Advanced System Settings</b>.
+- In System Properties, navigated to the <b>Computer Name</b> tab and clicked <b>Change</b>.
+- On the <b>computer name and domain changes</b> box, checked <b>Domain</b> and entered the configured domain name.
+
+![advanced setting](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Advances%20system%20setting.png)
+
+- Clicked <b>OK</b>
 - When prompted, entered the domain administrator’s username and password.
+
+![Change](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Add.png)
+
 - Received confirmation that the computer was successfully added to the domain.
+
+![password](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Success%20add.png)
+
 - Restarted the client to apply the changes.
 
+![restart](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Restart.png)
+
 The Windows 10 client was now successfully joined to the Active Directory domain and ready for domain-based management.
+
+## Troubleshooting & Solutions
+
+- <b>Issue</b>: VM performance lag due to high RAM allocation.
+- <b>Solution</b>: Reduced each VM’s base memory from 4 GB to 2.8 GB.
+
+- <b>Issue</b>: Server reinstalling in loop after initial setup.
+- <b>Solution</b>: Removed ISO from the VM’s virtual CD drive before reboot.
+
+## Key Skills Demonstrated
+
+- Virtualization setup with VirtualBox.
+- Windows Server installation and configuration.
+- Active Directory and DNS deployment.
+- User account creation and group policy basics.
+- Network configuration and troubleshooting.
+- Joining clients to a Windows domain.
+
+## Outcome
+Successfully deployed a functioning Active Directory environment with a Windows 10 client joined to the domain.
+This lab replicates common IT support and system administration tasks found in enterprise settings and forms the foundation for advanced domain services such as Group Policy management and file server roles.
+
+
