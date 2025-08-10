@@ -185,12 +185,29 @@ After configuring the Domain Controller, I created a new user account within Act
 #### On the Windows Client
 
 - Renamed the Windows 10 client to a descriptive name for easier identification within the domain.
+
+![Renamed](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Renamed%20Windows%2010.png)
+
 - On the Windows 10 (HelpDesk) client, right-clicked the network adapter icon and selected Open Network & Internet Settings.
-- Clicked Change adapter options, then right-clicked Ethernet and selected Properties.
-- Highlighted Internet Protocol Version 4 (TCP/IPv4) and clicked Properties.
-- Selected Use the following DNS server addresses and entered the Domain Controller’s IP address as the Preferred DNS server.
+
+![Open network](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Window%2010%20network%20adapter.png)
+
+![Change adapter setting](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Window%2010%20network%20set.png)
+
+- Clicked on <b>Change adapter options</b>, then right-clicked Ethernet and selected Properties.
+- Highlighted <b>Internet Protocol Version 4 (TCP/IPv4)</b> and clicked Properties.
+
+  ![Ethernet properties](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Ethernet%20properties.png)
+
+- Selected <b>Use the following DNS server addresses</b> and entered the Domain Controller’s IP address as the Preferred DNS server.
+
+![internet setting](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/IP%20WINDOWS.png)
+
 - Entered the IP address, subnet mask, and default gateway to match the Domain Controller’s network configuration. This ensured the client was correctly pointed to the Domain Controller.
 - Clicked OK to save changes.
+
+
+
 - With the network configured, I proceeded to join the client to the domain:
 - On the Windows 10 client, right-clicked the Start button and selected System.
 - In the About window, clicked Advanced System Settings.
