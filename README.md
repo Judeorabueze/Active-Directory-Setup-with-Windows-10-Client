@@ -148,12 +148,29 @@ At this stage, the server was successfully configured as a Domain Controller wit
 After configuring the Domain Controller, I created a new user account within Active Directory for demonstration and testing purposes.
 
 - Logged into the Domain Controller and opened Server Manager.
-- Clicked on Tools and selected Active Directory Users and Computers (ADUC).
-- Expanded the root domain (in this lab: judeorabueze.com) and selected the Users container.
-- Right-clicked within the Users container, selected New → User.
-- Entered the required details in the New Object – User window.
-- Clicked Next and created a secure password for the account.
-- Confirmed the password settings and clicked Next again.
-- Reviewed the details and clicked Finish to create the account.
+- Clicked on <b>Tools</b> and selected <b>Active Directory Users and Computers (ADUC)</b>.
 
-The new user account, Helpdesk Demo, was successfully created and added to the domain.
+![Active Directory User](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/AD%20Tools.png)
+
+- Expanded the root domain (in this lab: judeorabueze.com) and selected the <b>Users</b> container.
+- Right-clicked within the <b>Users</b> container, selected <b>New → User</b>.
+
+![Users Container](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Domain%20dropdpwn.png)
+
+- Entered the required details in the <b>New Object</b> – User window.
+
+![new object](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/New%20object%20user.png)
+
+- Clicked <b>Next</b> and created a secure password for the account.
+
+![Password](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/New%20user%20password.png)
+
+- Confirmed the password settings and clicked <b>Next</b> again.
+
+![finish](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/New%20user%20finish.png)
+
+- Reviewed the details and clicked <b>Finish</b> to create the account.
+
+![confirmation](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/New%20user%20confirmation.png)
+
+*The new user account, Helpdesk Demo, was successfully created and added to the domain.*
