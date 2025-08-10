@@ -88,8 +88,30 @@ Key tasks included deploying Active Directory Domain Services (AD DS), configuri
 *Windows server 2019* 
 
 - Enabled Shared Clipboard and Drag and Drop to Bidirectional in VirtualBox for easier file and text transfer between host and VM.
-- Renamed the server name using the <b>Rename this pc</b> in the systems <b>Device specifications</b>. 
+- Renamed the server name using the <b>Rename this pc</b> in the systems <b>Device specifications</b>.
+- Restarted the system.
 
-### 3. Configuring the Domain Controller
+### 3. Configuring Active Directory Domain Services (AD DS)
+
+To enable centralized management of the Windows 10 client, I installed and configured Active Directory Domain Services (AD DS) on the Windows Server 2019 virtual machine, promoting it to a Domain Controller.
+
+- Logged into the Windows Server 2019 VM.
+- Opened Server Manager, clicked Manage, and selected Add Roles and Features.
+- Chose Role-based or feature-based installation and clicked Next.
+- Selected the target server from the server pool and clicked Next.
+- From the list of roles, selected Active Directory Domain Services (AD DS).
+- Clicked Add Features when prompted to include required components, then clicked Next.
+- Accepted the default features (including .NET Framework 3.5) and proceeded by clicking Next twice.
+- Clicked Install and allowed the installation to complete.
+- After installation, clicked Promote this server to a domain controller.
+- Selected Add a new forest, entered the root domain name (e.g., mylab.local), and clicked Next.
+- Set a Directory Services Restore Mode (DSRM) password and clicked Next.
+- Accepted the automatically generated NetBIOS domain name (or shortened it if desired), then clicked Next.
+- Reviewed configuration selections and clicked Next.
+- After prerequisite checks passed, clicked Install.
+- Allowed the system to complete the configuration and automatically restart, finalizing the promotion to Domain Controller.
+
+At this stage, the server was successfully configured as a Domain Controller with Active Directory services ready to manage network clients.
+
 
 
