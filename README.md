@@ -109,12 +109,25 @@ To enable centralized management of the Windows 10 client, I installed and confi
 
 ![Active Directory](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Active%20directory%20domain%20services.png)
 
-- Clicked Add Features when prompted to include required components, then clicked Next.
+- Clicked <b>Add Features</b> when prompted to include required components, then clicked Next.
 - Accepted the default features (including .NET Framework 3.5) and proceeded by clicking Next twice.
-- Clicked Install and allowed the installation to complete.
-- After installation, clicked Promote this server to a domain controller.
-- Selected Add a new forest, entered the root domain name (e.g., mylab.local), and clicked Next.
-- Set a Directory Services Restore Mode (DSRM) password and clicked Next.
+- On the <b>Confirm installation selections</b> dialogue box, clicked <b>Install</b>.
+
+![netframe](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/.netframe.png)
+
+- Allowed the installation to complete.
+
+![installation progress](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Installation%20progress.png)
+
+- After installation, clicked <b>Promote this server to a domain controller</b>.
+- On the <b>Active Directory Domain Service Wizard</b>, selected <b>Add a new forest</b>, entered the <b>root domain name</b> (i used my name - judeorabueze.com), and clicked Next.
+
+![Active directory](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/deployment%20configuration.png)
+
+- Set a <b>Directory Services Restore Mode (DSRM) password</b> and clicked Next.
+
+![password](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/Password.png)
+
 - Accepted the automatically generated NetBIOS domain name (or shortened it if desired), then clicked Next.
 - Reviewed configuration selections and clicked Next.
 - After prerequisite checks passed, clicked Install.
