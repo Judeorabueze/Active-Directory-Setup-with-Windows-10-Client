@@ -174,3 +174,6 @@ After configuring the Domain Controller, I created a new user account within Act
 ![confirmation](https://github.com/Judeorabueze/Active-Directory-Setup-with-Windows-10-Client/blob/main/New%20user%20confirmation.png)
 
 *The new user account, Helpdesk Demo, was successfully created and added to the domain.*
+
+### 5. Joining the Windows Client to the Domain
+
